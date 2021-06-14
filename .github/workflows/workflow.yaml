@@ -26,4 +26,4 @@ jobs:
     steps:
       - uses: sfdx-actions/setup-sfdx@v1
       - name: sfdx-test-run
-        run: sfdx force:apex:test:run -l RunLocalTests -w 30
+        run: sfdx force:apex:test:run -l RunLocalTests -w 30 -u gpanja
